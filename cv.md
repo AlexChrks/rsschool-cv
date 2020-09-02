@@ -1,9 +1,9 @@
 # Alexey Cherkas
 
 ## Contact Info
-**phone number:** +375292177762
-**email:** alexey.cherkas1997@gmail.com
-**skype:** chash-angel
+* **phone number:** +375292177762
+* **email:** alexey.cherkas1997@gmail.com
+* **skype:** chash-angel
 
 ## Summary
     I'm fond of Front-end, JavaScript and web-development at all. 
