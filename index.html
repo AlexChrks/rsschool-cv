@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Alexey Cherkas</h1>
+        <img src="img/photo.jpg" alt="My Photo">
+    </header>
+    <hr>
+
+    <section>
+        <h2>Contact info</h2>
+        <ul>
+            <li><strong>phone number:</strong> +375292177762</li>
+            <li><strong>email:</strong> alexey.cherkas1997@gmail.com</li>
+            <li><strong>skype:</strong>chash-angel</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Summary</h2>
+        <p> I'm fond of Front-end, JavaScript and web-development at all. And frankly, it's the main think people should
+            care about being searching a job. Drown with head in favorite work.My goals are to improve myself, meet
+            interesting people, learn new things, try my best in life-race. I wish to investigate the secrets of
+            programming and be perfect specialist in Front-end area.</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript basics</li>
+            <li>JS OOP basics</li>
+            <li>Git</li>
+            <li>Photoshop</li>
+            <li>Basic Algoritms</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Code examples</h2>
+        <pre>
+            function t11(event) {
+                console.log(event);
+                for (let item of key11) {
+                    if (event.key == item.getAttribute('data')) {
+                        item.classList.add('keyadd');
+                    }
+                }
+            }
+            
+            function t13() {
+                fetch('http://getpost.itgid.info/index2.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    },
+                    body: 'auth=5ADcB96BA48d3f80&action=4&num1=5&num2=19'
+                })
+                    .then(responce => responce.text())
+                    .then(responce => {
+                        document.querySelector('.out-13').textContent = responce;
+                    })
+            }
+            
+            document.querySelector('.b-13').addEventListener('click', t13);
+        </pre>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Experience</h2>
+        <ul>
+            <li>API weather application based on JavaScript</li>
+            <li>Virtual keyboard application</li>
+            <li>Coding tests during learning online-course JS2.0 <a href="https://itgid.info/">itgid.com</a></li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Education</h2>
+        <span>I've graduated online courses:</span>
+        <ol>
+            <li>JS2.0 on the platform <a href="https://itgid.info/">itgid.info</a></li>
+            <li>OOP JS on the same platform</li>
+            <li>Self-studying on <a href="https://learn.javascript.ru/">learn.javascript.ru</a> and <a
+                    href="https://www.w3schools.com/">w3schools.com</a>
+            </li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Languages</h2>
+        <ol>
+            <li>English
+                <ul>
+                    <li>My current level is B1. I've practiced speaking skill via skype with a native speakers last half
+                        of year.</li>
+                    <li>I've attended offline courses "English Second Language" in Gomel.</li>
+                </ul>
+            </li>
+            <li>German
+                <ul>
+                    <li>My German level is A1. I have a little bit of speaking, reading and writing skills. I can
+                        introduce myself in German, tell about hobbies etc.</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <hr>
+</body>
+
+</html>
