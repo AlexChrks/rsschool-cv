@@ -25,3 +25,32 @@
 * Git
 * Photoshop
 * Basic Algoritms
+
+## Code examples
+
+```
+function t11(event) {
+    console.log(event);
+    for (let item of key11) {
+        if (event.key == item.getAttribute('data')) {
+            item.classList.add('keyadd');
+        }
+    }
+}
+
+function t13() {
+    fetch('http://getpost.itgid.info/index2.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: 'auth=5ADcB96BA48d3f80&action=4&num1=5&num2=19'
+    })
+        .then(responce => responce.text())
+        .then(responce => {
+            document.querySelector('.out-13').textContent = responce;
+        })
+}
+
+document.querySelector('.b-13').addEventListener('click', t13);
+```
