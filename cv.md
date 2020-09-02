@@ -61,3 +61,9 @@ document.querySelector('.b-13').addEventListener('click', t13);
 * Virtual keyboard application
 * Coding tests during learning online-course JS2.0 itgid.com
 
+## Education
+
+   **I've graduated online courses:** 
+   1. JS2.0 on the platform itgid.com
+   2. OOP JS on the same platform
+   3. Self-studying on learn.javascript.ru and w3schools.com
