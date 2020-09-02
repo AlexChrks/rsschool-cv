@@ -54,3 +54,10 @@ function t13() {
 
 document.querySelector('.b-13').addEventListener('click', t13);
 ```
+
+## Experience
+
+* API weather application based on JavaScript
+* Virtual keyboard application
+* Coding tests during learning online-course JS2.0 itgid.com
+
