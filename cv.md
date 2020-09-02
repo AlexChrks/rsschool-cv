@@ -67,3 +67,12 @@ document.querySelector('.b-13').addEventListener('click', t13);
    1. JS2.0 on the platform itgid.com
    2. OOP JS on the same platform
    3. Self-studying on learn.javascript.ru and w3schools.com
+
+## Languages
+
+1. English
+   * My current level is B1. I've practiced speaking skill via skype with a native speakers last half of year.
+   * I've attended offline courses "English Second Language" in Gomel
+  
+2. German
+   * My German level is A1. I have a little bit of speaking, reading and writing skills. I can introduce myself in German, tell about hobbies etc.
