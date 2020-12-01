@@ -20,46 +20,21 @@
 
 * HTML
 * CSS
-* JavaScript basics
-* JS OOP basics
+* JavaScript
+* NPM
+* Webpack
 * Git
 * Photoshop
+* Figma
 * Basic Algoritms
-
-## Code examples
-
-```
-function t11(event) {
-    console.log(event);
-    for (let item of key11) {
-        if (event.key == item.getAttribute('data')) {
-            item.classList.add('keyadd');
-        }
-    }
-}
-
-function t13() {
-    fetch('http://getpost.itgid.info/index2.php', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'
-        },
-        body: 'auth=5ADcB96BA48d3f80&action=4&num1=5&num2=19'
-    })
-        .then(responce => responce.text())
-        .then(responce => {
-            document.querySelector('.out-13').textContent = responce;
-        })
-}
-
-document.querySelector('.b-13').addEventListener('click', t13);
-```
 
 ## Experience
 
-* API weather application based on JavaScript
+* Calculator application
+* Pets shelter website
+* Momentum application
 * Virtual keyboard application
-* Coding tests during learning online-course JS2.0 itgid.com
+* "English for kids" application
 
 ## Education
 
@@ -67,6 +42,7 @@ document.querySelector('.b-13').addEventListener('click', t13);
    1. JS2.0 on the platform itgid.com
    2. OOP JS on the same platform
    3. Self-studying on learn.javascript.ru and w3schools.com
+   4. At current moment I'm the second stage student of the Rolling Scopes School JS2020Q3 set
 
 ## Languages
 
