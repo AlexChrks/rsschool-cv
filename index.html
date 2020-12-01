@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Alexey Cherkas CV</title>
 </head>
 
 <body>
+    <div class="wrapper">
+
+    </div>
     <header>
         <h1>Alexey Cherkas</h1>
         <img src="img/photo.jpg" alt="My Photo">
@@ -19,9 +22,15 @@
     <section>
         <h2>Contact info</h2>
         <ul>
-            <li><strong>phone number:</strong> +375292177762</li>
-            <li><strong>email:</strong> alexey.cherkas1997@gmail.com</li>
-            <li><strong>skype:</strong>chash-angel</li>
+            <li>
+                <strong>phone number:</strong>
+                <a href="tel:+375292177762" class="phone" href="#">+375292177762</a>
+            </li>
+            <li>
+                <strong>email:</strong>
+                <a href="mailto:alexey.cherkas1997@gmail.com" class="email" href="#">alexey.cherkas1997@gmail.com</a>
+            </li>
+            <li><strong>skype:</strong> crash-angel</li>
         </ul>
     </section>
 
@@ -42,10 +51,12 @@
         <ul>
             <li>HTML</li>
             <li>CSS</li>
-            <li>JavaScript basics</li>
-            <li>JS OOP basics</li>
+            <li>JavaScript</li>
+            <li>NPM</li>
+            <li>Webpack</li>
             <li>Git</li>
             <li>Photoshop</li>
+            <li>Figma</li>
             <li>Basic Algoritms</li>
         </ul>
     </section>
@@ -53,43 +64,41 @@
     <hr>
 
     <section>
-        <h2>Code examples</h2>
-        <pre>
-            function t11(event) {
-                console.log(event);
-                for (let item of key11) {
-                    if (event.key == item.getAttribute('data')) {
-                        item.classList.add('keyadd');
-                    }
-                }
-            }
-            
-            function t13() {
-                fetch('http://getpost.itgid.info/index2.php', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/x-www-form-urlencoded'
-                    },
-                    body: 'auth=5ADcB96BA48d3f80&action=4&num1=5&num2=19'
-                })
-                    .then(responce => responce.text())
-                    .then(responce => {
-                        document.querySelector('.out-13').textContent = responce;
-                    })
-            }
-            
-            document.querySelector('.b-13').addEventListener('click', t13);
-        </pre>
-    </section>
-
-    <hr>
-
-    <section>
         <h2>Experience</h2>
         <ul>
-            <li>API weather application based on JavaScript</li>
-            <li>Virtual keyboard application</li>
-            <li>Coding tests during learning online-course JS2.0 <a href="https://itgid.info/">itgid.com</a></li>
+            <li>
+                Calculator application
+                <ul>
+                    <li>Build a completely modern calculator using ES6 OOP approach</li>
+                </ul>
+            </li>
+            <li>
+                Pets shelter website
+                <ul>
+                    <li>Fully adaptive website. Used HTML, CSS. Also used JavaScript to interact with DOM elements</li>
+                </ul>
+            </li>
+            <li>
+                Momentum application
+                <ul>
+                    <li>Adaptive design, interaction with Date object, weather/forecast and quotes API, localStorage
+                        interaction</li>
+                </ul>
+            </li>
+            <li>
+                Virtual keyboard application
+                <ul>
+                    <li>Adaptive design, interaction with keyboard and mouse events,original keys sounds, speech
+                        recognition of russian and english languages</li>
+                </ul>
+            </li>
+            <li>
+                "English for kids" application
+                <ul>
+                    <li>Single page application for learning english words. Adaptive design. Used JS modules, eslint
+                        airbnb base, webpack</li>
+                </ul>
+            </li>
         </ul>
     </section>
 
@@ -99,11 +108,11 @@
         <h2>Education</h2>
         <span>I've graduated online courses:</span>
         <ol>
-            <li>JS2.0 on the platform <a href="https://itgid.info/">itgid.info</a></li>
-            <li>OOP JS on the same platform</li>
+            <li>JS courses on the platform <a href="https://itgid.info/">itgid.info</a></li>
             <li>Self-studying on <a href="https://learn.javascript.ru/">learn.javascript.ru</a> and <a
                     href="https://www.w3schools.com/">w3schools.com</a>
             </li>
+            <li>At current moment I'm the second stage student of the Rolling Scopes School JS2020Q3 set</li>
         </ol>
     </section>
 
@@ -115,14 +124,13 @@
             <li>English
                 <ul>
                     <li>My current level is B1. I've practiced speaking skill via skype with a native speakers last half
-                        of year.</li>
-                    <li>I've attended offline courses "English Second Language" in Gomel.</li>
+                        of year. Level is approved by EPAM training center test</li>
+                    <li>Graduated offline courses "English Second Language" in Gomel.</li>
                 </ul>
             </li>
             <li>German
                 <ul>
-                    <li>My German level is A1. I have a little bit of speaking, reading and writing skills. I can
-                        introduce myself in German, tell about hobbies etc.</li>
+                    <li>My German level is A1. I have a little bit of speaking, reading and writing skills.</li>
                 </ul>
             </li>
         </ol>
