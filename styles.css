@@ -4,8 +4,9 @@ html {
 }
 
 body {
-    width: 1024px;
+    width: 80vw;
     margin: 0 auto;
+    max-width: 1024px;
 }
 
 header {
@@ -25,4 +26,11 @@ li {
 
 h2 {
     margin: 12px 0;
+}
+
+@media screen and (max-width: 500px) {
+    img {
+        width: 150px;
+        height: 150px;
+    }
 }
